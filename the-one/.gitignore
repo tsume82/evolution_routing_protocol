@@ -1,5 +1,5 @@
 # Compiled files
-*.class
+.class
 
 # Simulation report files
 *reports*/*.txt
@@ -12,6 +12,6 @@ doc/package-list
 
 # Eclipse IDE files
 .classpath
-.project
 /target/
+.project
 .settings/org.eclipse.*
