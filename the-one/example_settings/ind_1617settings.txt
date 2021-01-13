@@ -1,2 +1,0 @@
-Scenario.name = ind_1617
-Group.router = ind_1617Router

@@ -1,2 +1,0 @@
-Scenario.name = ind_443
-Group.router = ind_443Router
