@@ -73,4 +73,12 @@ public class Range {
 		return "Range [" + min + ", " + max + "]";
 	}
 
+	public double getMin() {
+		return this.min;
+	}
+
+	public double getMax() {
+		return this.max;
+	}
+
 }

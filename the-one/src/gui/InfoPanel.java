@@ -21,6 +21,7 @@ import core.Message;
 /**
  * Information panel that shows data of selected messages and nodes.
  */
+@SuppressWarnings("serial")
 public class InfoPanel extends JPanel implements ActionListener{
 	private JComboBox msgChooser;
 	private JLabel info;
@@ -47,7 +48,6 @@ public class InfoPanel extends JPanel implements ActionListener{
 	 * Show information about a host
 	 * @param host Host to show the information of
 	 */
-	@SuppressWarnings("unchecked")
 	public void showInfo(DTNHost host) {
 		Vector<Message> messages = new Vector<Message>(host.getMessageCollection());
 		Collections.sort(messages);

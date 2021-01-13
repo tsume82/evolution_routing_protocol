@@ -63,7 +63,7 @@ public class ProphetRouter extends ActiveRouter {
 	private double gamma;
 
 	/** delivery predictabilities */
-	private Map<DTNHost, Double> preds;
+	protected Map<DTNHost, Double> preds;
 	/** last delivery predictability update (sim)time */
 	private double lastAgeUpdate;
 
@@ -182,7 +182,7 @@ public class ProphetRouter extends ActiveRouter {
 	 * time units that have elapsed since the last time the metric was aged.
 	 * @see #SECONDS_IN_UNIT_S
 	 */
-	private void ageDeliveryPreds() {
+	protected void ageDeliveryPreds() {
 		double timeDiff = (SimClock.getTime() - this.lastAgeUpdate) /
 			secondsInTimeUnit;
 
@@ -268,7 +268,7 @@ public class ProphetRouter extends ActiveRouter {
 	 * their delivery probability by the host on the other side of the
 	 * connection (GRTRMax)
 	 */
-	private class TupleComparator implements Comparator
+	protected class TupleComparator implements Comparator
 		<Tuple<Message, Connection>> {
 
 		public int compare(Tuple<Message, Connection> tuple1,

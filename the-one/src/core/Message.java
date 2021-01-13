@@ -163,6 +163,12 @@ public class Message implements Comparable<Message> {
 		}
 	}
 
+	/**
+	 * Returns the initial TTL of the message
+	 */
+	public int getInitTtl() {
+		return this.initTtl;
+	}
 
 	/**
 	 * Sets the initial TTL (time-to-live) for this message. The initial
