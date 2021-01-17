@@ -1,0 +1,20 @@
+Message stats for scenario Evo_epidemic_manhattan_5555
+sim_time: 43200.1000
+created: 1463
+started: 21441
+relayed: 10644
+aborted: 10797
+dropped: 10882
+removed: 0
+delivered: 249
+delivery_prob: 0.1702
+response_prob: 0.0000
+overhead_ratio: 41.7470
+latency_avg: 6572.4988
+latency_med: 5296.8000
+hopcount_avg: 3.2892
+hopcount_med: 3
+buffertime_avg: 3025.5005
+buffertime_med: 2179.4000
+rtt_avg: NaN
+rtt_med: NaN

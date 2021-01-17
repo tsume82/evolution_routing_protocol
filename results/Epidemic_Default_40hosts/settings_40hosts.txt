@@ -1,0 +1,5 @@
+Scenario.name = Evo_epidemic_1
+Group.router = Run5_100
+MovementModel.rngSeed = 1
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

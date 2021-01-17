@@ -1,0 +1,20 @@
+Message stats for scenario Epidemic_manhattan100_1
+sim_time: 43200.1000
+created: 1465
+started: 989
+relayed: 421
+aborted: 568
+dropped: 957
+removed: 0
+delivered: 276
+delivery_prob: 0.1884
+response_prob: 0.0000
+overhead_ratio: 0.5254
+latency_avg: 7618.4685
+latency_med: 7285.8000
+hopcount_avg: 1.0543
+hopcount_med: 1
+buffertime_avg: 16929.0070
+buffertime_med: 17964.7000
+rtt_avg: NaN
+rtt_med: NaN

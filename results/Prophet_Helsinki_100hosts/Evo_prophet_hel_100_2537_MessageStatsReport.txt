@@ -1,0 +1,20 @@
+Message stats for scenario Evo_prophet_hel_100_2537
+sim_time: 43200.1000
+created: 1465
+started: 1618
+relayed: 671
+aborted: 947
+dropped: 1037
+removed: 0
+delivered: 414
+delivery_prob: 0.2826
+response_prob: 0.0000
+overhead_ratio: 0.6208
+latency_avg: 7333.0971
+latency_med: 6569.5000
+hopcount_avg: 1.0725
+hopcount_med: 1
+buffertime_avg: 16232.7904
+buffertime_med: 17962.7000
+rtt_avg: NaN
+rtt_med: NaN

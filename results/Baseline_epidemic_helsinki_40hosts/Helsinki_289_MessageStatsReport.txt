@@ -1,0 +1,20 @@
+Message stats for scenario Helsinki100_289
+sim_time: 43200.1000
+created: 1463
+started: 38706
+relayed: 18736
+aborted: 19970
+dropped: 18994
+removed: 0
+delivered: 256
+delivery_prob: 0.1750
+response_prob: 0.0000
+overhead_ratio: 72.1875
+latency_avg: 5553.2609
+latency_med: 4163.4000
+hopcount_avg: 4.1797
+hopcount_med: 3
+buffertime_avg: 1823.2125
+buffertime_med: 1166.3000
+rtt_avg: NaN
+rtt_med: NaN

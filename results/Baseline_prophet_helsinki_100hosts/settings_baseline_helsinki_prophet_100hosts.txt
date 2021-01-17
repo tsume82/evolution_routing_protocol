@@ -1,0 +1,16 @@
+Scenario.name = Prophet_helsinki100_1529
+Group.router = ProphetRouter
+
+Group.nrofHosts = 100
+ProphetRouter.secondsInTimeUnit = 30
+MapBasedMovement.nrofMapFiles = 1
+MovementModel.worldSize = 100000, 100000
+MapBasedMovement.mapFile1 = data/HelsinkiMedium/roads.wkt 
+Group4.routeFile = data/HelsinkiMedium/A_bus.wkt
+Group5.routeFile = data/HelsinkiMedium/B_bus.wkt
+Group6.routeFile = data/HelsinkiMedium/C_bus.wkt
+Events1.hosts = 0,306
+MovementModel.rngSeed = 1529
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

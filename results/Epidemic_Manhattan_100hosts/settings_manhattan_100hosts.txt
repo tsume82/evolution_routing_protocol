@@ -1,0 +1,17 @@
+Scenario.name = Epidemic_manhattan100_1
+Group.router = Run3_60
+
+MapBasedMovement.nrofMapFiles = 1
+MovementModel.worldSize = 100000, 100000
+MapBasedMovement.mapFile1 = data/Manhattan/roads.wkt 
+Group4.routeFile = data/Manhattan/bus.wkt
+Group5.routeFile = data/Manhattan/bus.wkt
+Group6.routeFile = data/Manhattan/bus.wkt
+
+Group.nrofHosts = 100
+Events1.hosts = 0,306
+
+MovementModel.rngSeed = 1
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

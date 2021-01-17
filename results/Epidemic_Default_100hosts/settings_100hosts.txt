@@ -1,0 +1,10 @@
+Scenario.name = Evo_Default100_1
+Group.router = Run3_100
+
+Group.nrofHosts = 100
+Events1.hosts = 0,306
+
+MovementModel.rngSeed = 1
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

@@ -1,0 +1,13 @@
+Scenario.name = Evo_Epidemic_Hel_100_1
+Group.router = Run1_64
+MapBasedMovement.nrofMapFiles = 1
+MovementModel.worldSize = 100000, 100000
+MapBasedMovement.mapFile1 = data/HelsinkiMedium/roads.wkt 
+Group4.routeFile = data/HelsinkiMedium/A_bus.wkt
+Group5.routeFile = data/HelsinkiMedium/B_bus.wkt
+Group6.routeFile = data/HelsinkiMedium/C_bus.wkt
+
+MovementModel.rngSeed = 5555
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

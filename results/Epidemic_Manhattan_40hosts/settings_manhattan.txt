@@ -1,0 +1,13 @@
+Scenario.name = Evo_epidemic_manhattan_1
+Group.router = Run2_94
+MapBasedMovement.nrofMapFiles = 1
+MovementModel.worldSize = 100000, 100000
+MapBasedMovement.mapFile1 = data/Manhattan/roads.wkt 
+Group4.routeFile = data/Manhattan/bus.wkt
+Group5.routeFile = data/Manhattan/bus.wkt
+Group6.routeFile = data/Manhattan/bus.wkt
+
+MovementModel.rngSeed = 6891
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

@@ -1,0 +1,1 @@
+if(not(not(canStartTransfer)),add(exchangeDeliverableMessages,add(if(or(canStartTransfer,notEqual(not(isTransferring),or(isTransferring,isTransferring))),if(isTransferring,tryAllMessagesToAllConnections)),if(not(isTransferring),if(isTransferring,update)))))

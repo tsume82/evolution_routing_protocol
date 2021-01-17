@@ -1,0 +1,20 @@
+Message stats for scenario Evo_Default100_497
+sim_time: 43200.1000
+created: 1465
+started: 2777
+relayed: 1133
+aborted: 1644
+dropped: 1334
+removed: 0
+delivered: 547
+delivery_prob: 0.3734
+response_prob: 0.0000
+overhead_ratio: 1.0713
+latency_avg: 7545.8351
+latency_med: 6570.1000
+hopcount_avg: 1.1225
+hopcount_med: 1
+buffertime_avg: 14423.4166
+buffertime_med: 17949.1000
+rtt_avg: NaN
+rtt_med: NaN

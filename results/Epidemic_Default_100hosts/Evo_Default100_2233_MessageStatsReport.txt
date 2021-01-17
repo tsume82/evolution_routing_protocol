@@ -1,0 +1,20 @@
+Message stats for scenario Evo_epidemic_def_100_2233
+sim_time: 43200.1000
+created: 1465
+started: 2475
+relayed: 1030
+aborted: 1445
+dropped: 1213
+removed: 0
+delivered: 554
+delivery_prob: 0.3782
+response_prob: 0.0000
+overhead_ratio: 0.8592
+latency_avg: 7390.4968
+latency_med: 6795.6000
+hopcount_avg: 1.0993
+hopcount_med: 1
+buffertime_avg: 15115.9002
+buffertime_med: 17956.4000
+rtt_avg: NaN
+rtt_med: NaN

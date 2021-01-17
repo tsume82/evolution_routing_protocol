@@ -1,0 +1,5 @@
+Scenario.name = Epidemic
+Group.router = EpidemicRouter
+MovementModel.rngSeed = 1
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

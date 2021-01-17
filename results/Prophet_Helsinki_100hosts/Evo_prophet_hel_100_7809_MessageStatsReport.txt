@@ -1,0 +1,20 @@
+Message stats for scenario Prophet_helsinki100_7809
+sim_time: 43200.1000
+created: 1465
+started: 1750
+relayed: 698
+aborted: 1052
+dropped: 1075
+removed: 0
+delivered: 432
+delivery_prob: 0.2949
+response_prob: 0.0000
+overhead_ratio: 0.6157
+latency_avg: 8183.3025
+latency_med: 7832.4000
+hopcount_avg: 1.0671
+hopcount_med: 1
+buffertime_avg: 16031.9854
+buffertime_med: 17960.8000
+rtt_avg: NaN
+rtt_med: NaN

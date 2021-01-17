@@ -1,0 +1,8 @@
+Scenario.name = Prophet_default40_1
+Group.router = Run2_93
+
+ProphetRouter.secondsInTimeUnit = 30
+MovementModel.rngSeed = 1
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

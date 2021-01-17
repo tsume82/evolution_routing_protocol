@@ -1,0 +1,15 @@
+Scenario.name = Prophet_manhattan40_1
+Group.router = ProphetRouter
+
+MapBasedMovement.nrofMapFiles = 1
+MovementModel.worldSize = 100000, 100000
+MapBasedMovement.mapFile1 = data/Manhattan/roads.wkt 
+Group4.routeFile = data/Manhattan/bus.wkt
+Group5.routeFile = data/Manhattan/bus.wkt
+Group6.routeFile = data/Manhattan/bus.wkt
+
+ProphetRouter.secondsInTimeUnit = 30
+MovementModel.rngSeed = 1
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

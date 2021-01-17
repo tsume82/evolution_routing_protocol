@@ -1,0 +1,20 @@
+Message stats for scenario Prophet_manhattan40_9233
+sim_time: 43200.1000
+created: 1463
+started: 17277
+relayed: 7811
+aborted: 9464
+dropped: 8116
+removed: 0
+delivered: 281
+delivery_prob: 0.1921
+response_prob: 0.0000
+overhead_ratio: 26.7972
+latency_avg: 7099.5754
+latency_med: 6234.4000
+hopcount_avg: 2.4698
+hopcount_med: 2
+buffertime_avg: 3579.2076
+buffertime_med: 2449.4000
+rtt_avg: NaN
+rtt_med: NaN

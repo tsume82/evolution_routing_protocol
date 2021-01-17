@@ -1,0 +1,1 @@
+if(not(notEqual(not(notEqual(or(canStartTransfer,canStartTransfer),or(isTransferring,isTransferring))),not(notEqual(isTransferring,canStartTransfer)))),if(canStartTransfer,add(if(or(isTransferring,canStartTransfer),if(isTransferring,tryOtherMessages)),add(add(update,exchangeDeliverableMessages),add(update,exchangeDeliverableMessages)))))
