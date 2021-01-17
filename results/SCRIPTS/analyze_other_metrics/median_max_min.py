@@ -1,18 +1,18 @@
 import pandas as pd
 
 files = {
-    'delivery_prob': '../../results/delivery_prob.csv',
-    'overhead_ratio': '../../results/overhead_ratio.csv',
-    'latency_avg': '../../results/latency_avg.csv',
-    'hopcount_avg': '../../results/hopcount_avg.csv',
-    'buffertime_avg': '../../results/buffertime_avg.csv'
+    'delivery_prob': '../delivery_prob.csv',
+    'overhead_ratio': '../overhead_ratio.csv',
+    'latency_avg': '../latency_avg.csv',
+    'hopcount_avg': '../hopcount_avg.csv',
+    'buffertime_avg': '../buffertime_avg.csv'
 }
 }
 
 for file in files:
     dataframe = pd.read_csv(files[file], sep=';')
 
-    out_filename = f'../../results/{file}_median_min_max.csv'
+    out_filename = f'./{file}_median_min_max.csv'
     out_file = open(out_filename, 'w')
     out_file.write('scenario;median;min;max\n')
 
