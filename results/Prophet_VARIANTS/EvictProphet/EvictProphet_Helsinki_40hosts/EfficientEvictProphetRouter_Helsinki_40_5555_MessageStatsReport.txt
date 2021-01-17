@@ -1,0 +1,20 @@
+Message stats for scenario EfficientEvictProphetRouter_Helsinki_40_5555
+sim_time: 43200.1000
+created: 1463
+started: 32042
+relayed: 14649
+aborted: 17392
+dropped: 14944
+removed: 0
+delivered: 306
+delivery_prob: 0.2092
+response_prob: 0.0000
+overhead_ratio: 46.8725
+latency_avg: 5697.3961
+latency_med: 4562.2000
+hopcount_avg: 2.7614
+hopcount_med: 2
+buffertime_avg: 2088.7885
+buffertime_med: 1211.2000
+rtt_avg: NaN
+rtt_med: NaN

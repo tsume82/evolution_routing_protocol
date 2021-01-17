@@ -1,0 +1,20 @@
+Message stats for scenario Best_prophet_def100_on_hel40_157
+sim_time: 43200.1000
+created: 1463
+started: 1087
+relayed: 435
+aborted: 652
+dropped: 990
+removed: 0
+delivered: 352
+delivery_prob: 0.2406
+response_prob: 0.0000
+overhead_ratio: 0.2358
+latency_avg: 7102.6625
+latency_med: 6652.0000
+hopcount_avg: 1.0199
+hopcount_med: 1
+buffertime_avg: 14984.5229
+buffertime_med: 17642.5000
+rtt_avg: NaN
+rtt_med: NaN

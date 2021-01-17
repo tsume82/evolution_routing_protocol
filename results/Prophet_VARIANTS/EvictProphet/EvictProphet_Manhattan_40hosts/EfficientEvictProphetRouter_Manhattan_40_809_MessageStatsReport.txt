@@ -1,0 +1,20 @@
+Message stats for scenario EfficientEvictProphetRouter_Manhattan_40_809
+sim_time: 43200.1000
+created: 1463
+started: 17430
+relayed: 7891
+aborted: 9537
+dropped: 8239
+removed: 0
+delivered: 263
+delivery_prob: 0.1798
+response_prob: 0.0000
+overhead_ratio: 29.0038
+latency_avg: 7203.2373
+latency_med: 6503.0000
+hopcount_avg: 2.4677
+hopcount_med: 2
+buffertime_avg: 3469.6548
+buffertime_med: 2349.0000
+rtt_avg: NaN
+rtt_med: NaN

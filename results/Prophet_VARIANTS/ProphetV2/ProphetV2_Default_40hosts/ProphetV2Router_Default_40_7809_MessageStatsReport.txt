@@ -1,0 +1,20 @@
+Message stats for scenario ProphetV2Router_Default_40_7809
+sim_time: 43200.1000
+created: 1463
+started: 44221
+relayed: 19638
+aborted: 24580
+dropped: 19558
+removed: 0
+delivered: 470
+delivery_prob: 0.3213
+response_prob: 0.0000
+overhead_ratio: 40.7830
+latency_avg: 4018.4638
+latency_med: 3131.0000
+hopcount_avg: 2.9043
+hopcount_med: 3
+buffertime_avg: 1984.8141
+buffertime_med: 1273.3000
+rtt_avg: NaN
+rtt_med: NaN

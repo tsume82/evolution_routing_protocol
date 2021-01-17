@@ -1,0 +1,20 @@
+Message stats for scenario ProphetPlusRouter_Default_40_1
+sim_time: 43200.1000
+created: 1463
+started: 54286
+relayed: 28416
+aborted: 25866
+dropped: 28425
+removed: 0
+delivered: 400
+delivery_prob: 0.2734
+response_prob: 0.0000
+overhead_ratio: 70.0400
+latency_avg: 4488.1365
+latency_med: 3530.5000
+hopcount_avg: 3.3625
+hopcount_med: 3
+buffertime_avg: 1397.6333
+buffertime_med: 791.5000
+rtt_avg: NaN
+rtt_med: NaN

@@ -1,0 +1,20 @@
+Message stats for scenario ProphetPlusRouter_Helsinki_40_8035
+sim_time: 43200.1000
+created: 1463
+started: 32645
+relayed: 14201
+aborted: 18443
+dropped: 14560
+removed: 0
+delivered: 295
+delivery_prob: 0.2016
+response_prob: 0.0000
+overhead_ratio: 47.1390
+latency_avg: 5544.4241
+latency_med: 4355.1000
+hopcount_avg: 2.7322
+hopcount_med: 2
+buffertime_avg: 2114.3141
+buffertime_med: 1242.0000
+rtt_avg: NaN
+rtt_med: NaN

@@ -1,0 +1,13 @@
+Scenario.name = Best_prophet_hel40_on_def100_1
+Group.router = Run4_89
+
+MovementModel.rngSeed = 1
+
+Group.nrofHosts = 100
+Events1.hosts = 0,306
+
+ProphetRouter.secondsInTimeUnit = 30
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport
+

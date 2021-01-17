@@ -1,0 +1,20 @@
+Message stats for scenario EfficientEvictProphetRouter_Manhattan_100_8035
+sim_time: 43200.1000
+created: 1465
+started: 96586
+relayed: 44141
+aborted: 52437
+dropped: 43472
+removed: 0
+delivered: 295
+delivery_prob: 0.2014
+response_prob: 0.0000
+overhead_ratio: 148.6305
+latency_avg: 6470.1159
+latency_med: 5381.5000
+hopcount_avg: 3.5424
+hopcount_med: 3
+buffertime_avg: 1569.2947
+buffertime_med: 915.0000
+rtt_avg: NaN
+rtt_med: NaN

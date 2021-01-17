@@ -1,0 +1,7 @@
+Scenario.name = Best_epidemic_hel100_on_def40_1
+Group.router = Run3_65
+
+MovementModel.rngSeed = 1
+
+Report.nrofReports = 1
+Report.report1 = MessageStatsReport

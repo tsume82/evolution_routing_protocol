@@ -1,0 +1,20 @@
+Message stats for scenario ProphetV2Router_Helsinki_40_671
+sim_time: 43200.1000
+created: 1463
+started: 30884
+relayed: 13288
+aborted: 17596
+dropped: 13620
+removed: 0
+delivered: 335
+delivery_prob: 0.2290
+response_prob: 0.0000
+overhead_ratio: 38.6657
+latency_avg: 5203.2504
+latency_med: 3993.3000
+hopcount_avg: 2.6657
+hopcount_med: 2
+buffertime_avg: 2250.0225
+buffertime_med: 1532.0000
+rtt_avg: NaN
+rtt_med: NaN

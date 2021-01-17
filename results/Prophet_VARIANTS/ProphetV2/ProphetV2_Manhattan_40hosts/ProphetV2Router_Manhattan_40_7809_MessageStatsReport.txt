@@ -1,0 +1,20 @@
+Message stats for scenario ProphetV2Router_Manhattan_40_7809
+sim_time: 43200.1000
+created: 1463
+started: 17603
+relayed: 7857
+aborted: 9745
+dropped: 8220
+removed: 0
+delivered: 262
+delivery_prob: 0.1791
+response_prob: 0.0000
+overhead_ratio: 28.9885
+latency_avg: 6526.4916
+latency_med: 5598.9000
+hopcount_avg: 2.5840
+hopcount_med: 2
+buffertime_avg: 3571.4096
+buffertime_med: 2549.3000
+rtt_avg: NaN
+rtt_med: NaN

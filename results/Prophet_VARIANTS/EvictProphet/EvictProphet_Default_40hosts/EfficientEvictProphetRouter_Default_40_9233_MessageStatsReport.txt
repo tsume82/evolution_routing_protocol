@@ -1,0 +1,20 @@
+Message stats for scenario EfficientEvictProphetRouter_Default_40_9233
+sim_time: 43200.1000
+created: 1463
+started: 52609
+relayed: 26924
+aborted: 25683
+dropped: 26869
+removed: 0
+delivered: 402
+delivery_prob: 0.2748
+response_prob: 0.0000
+overhead_ratio: 65.9751
+latency_avg: 4567.6085
+latency_med: 3428.8000
+hopcount_avg: 3.4851
+hopcount_med: 3
+buffertime_avg: 1510.7385
+buffertime_med: 921.8000
+rtt_avg: NaN
+rtt_med: NaN

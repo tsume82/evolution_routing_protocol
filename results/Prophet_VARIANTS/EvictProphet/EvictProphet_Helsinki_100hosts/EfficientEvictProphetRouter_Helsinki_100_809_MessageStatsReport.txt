@@ -1,0 +1,20 @@
+Message stats for scenario EfficientEvictProphetRouter_Helsinki_100_809
+sim_time: 43200.1000
+created: 1465
+started: 184711
+relayed: 83588
+aborted: 101118
+dropped: 82784
+removed: 0
+delivered: 311
+delivery_prob: 0.2123
+response_prob: 0.0000
+overhead_ratio: 267.7717
+latency_avg: 4999.8389
+latency_med: 3914.8000
+hopcount_avg: 4.0032
+hopcount_med: 3
+buffertime_avg: 910.4095
+buffertime_med: 464.2000
+rtt_avg: NaN
+rtt_med: NaN

@@ -1,0 +1,20 @@
+Message stats for scenario ProphetPlusRouter_Manhattan_100_5555
+sim_time: 43200.1000
+created: 1465
+started: 100447
+relayed: 46240
+aborted: 54204
+dropped: 45506
+removed: 0
+delivered: 282
+delivery_prob: 0.1925
+response_prob: 0.0000
+overhead_ratio: 162.9716
+latency_avg: 6693.1195
+latency_med: 5719.2000
+hopcount_avg: 3.7943
+hopcount_med: 3
+buffertime_avg: 1500.9769
+buffertime_med: 847.7000
+rtt_avg: NaN
+rtt_med: NaN

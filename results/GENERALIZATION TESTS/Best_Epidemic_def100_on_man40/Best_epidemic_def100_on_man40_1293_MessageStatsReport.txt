@@ -1,0 +1,20 @@
+Message stats for scenario Best_epidemic_def100_on_man40_1293
+sim_time: 43200.1000
+created: 1463
+started: 705
+relayed: 291
+aborted: 414
+dropped: 974
+removed: 0
+delivered: 224
+delivery_prob: 0.1531
+response_prob: 0.0000
+overhead_ratio: 0.2991
+latency_avg: 7538.6714
+latency_med: 6382.8000
+hopcount_avg: 1.0223
+hopcount_med: 1
+buffertime_avg: 15347.5313
+buffertime_med: 17945.0000
+rtt_avg: NaN
+rtt_med: NaN
