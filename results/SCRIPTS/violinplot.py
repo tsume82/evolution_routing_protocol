@@ -8,7 +8,7 @@ import numpy as np
 #------------------------------------------------------#
 
 def violinplot_with_boxplot(data_to_plot, data_labels, fig_id='test', logScale=False):
-    plt.figure(fig_id)
+    plt.figure(fig_id, figsize=(8, 6))
 
     colors = []
 
