@@ -1,6 +1,6 @@
 # Source code for the paper "Genetic Improvement of Routing Protocols for Delay Tolerant Networks".
 
-Submitted to ACM Transactions on Evolutionary Learning and Optimization.
+To appear on ACM Transactions on Evolutionary Learning and Optimization.
 
 The repository contains the following files:
 
