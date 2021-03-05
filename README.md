@@ -2,7 +2,7 @@
 
 ## Requirements
 - Java 11 or higher
-- Jenetics 
+- Jenetics v5.2.0
 
 **Note**: The ONE must be compiled before use. To do so, execute "./compile.sh" (compile.bat on Windows) in the directory named `the-one`
 
