@@ -1,6 +1,5 @@
 #!/bin/bash
 
-CALLED_JAVA_HOME=/usr
 JENETICS_VERSION=5.2.0
 JENETICS_URL=https://github.com/jenetics/jenetics/archive/v${JENETICS_VERSION}.zip
 
@@ -12,7 +11,7 @@ function get_jenetics() {
     unzip v${JENETICS_VERSION}.zip && \
     cd jenetics-${JENETICS_VERSION} && \
     ./gradlew build && \
-    mv `find . -name *.jar` ../../ && \
+    mv `find . -name *.jar` ../../;
     cd ../../../ && \
     rm -rf lib/jenetics-temp;
 }
@@ -26,9 +25,6 @@ function collect_libs() {
 }
 
 function run() {
-    OLD_JAVA_HOME="$JAVA_HOME"
-    export JAVA_HOME="$CALLED_JAVA_HOME"
-
     cp -r results results.bak;
     cp -r the-one the-one.bak;
     
@@ -40,8 +36,6 @@ function run() {
     
     rm -rf the-one
     mv the-one.bak the-one;
-
-    export JAVA_HOME="$OLD_JAVA_HOME"
 }
 
 run
