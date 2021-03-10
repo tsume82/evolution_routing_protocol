@@ -4,15 +4,16 @@ JENETICS_VERSION=5.2.0
 JENETICS_URL=https://github.com/jenetics/jenetics/archive/v${JENETICS_VERSION}.zip
 
 function get_jenetics() {
-    mkdir lib && \
-    mkdir lib/jenetics-temp && \
-    pushd lib/jenetics-temp && \
-    wget "$JENETICS_URL" && \
-    unzip v${JENETICS_VERSION}.zip && \
+    mkdir lib;
+    mkdir lib/jenetics-temp;
+    pushd lib/jenetics-temp;
+    wget "$JENETICS_URL";
+    unzip v${JENETICS_VERSION}.zip;
     cd jenetics-${JENETICS_VERSION} && \
-    ./gradlew build && \
-    mv `find . -name *.jar` ../../;
-    cd ../../../ && \
+    ./gradlew jar && \
+    cd ..;
+    false | cp -i `find . -name '*.jar'` ../ 2>/dev/null;
+    cd ../..;
     rm -rf lib/jenetics-temp;
 }
 
@@ -33,9 +34,6 @@ function run() {
     PATH_SUFFIX=`collect_libs` && mkdir classes;
     "$JAVA_HOME/bin/javac" -cp ".:$PATH_SUFFIX" -sourcepath src -d classes src/*.java;
     "$JAVA_HOME/bin/java" -cp "classes:$PATH_SUFFIX" RoutingProtocol && popd
-    
-    rm -rf the-one
-    mv the-one.bak the-one;
 }
 
 run
