@@ -5,6 +5,7 @@
 - Jenetics v5.2.0
 
 **Note**: The ONE must be compiled before use. To do so, execute "./compile.sh" (compile.bat on Windows) in the directory named `the-one`
+
 To automatically compile the-ONE and Jenetics and run the experiments, please run `chmod +x run.bash && ./run.bash`.
 
 To appear on ACM Transactions on Evolutionary Learning and Optimization.
